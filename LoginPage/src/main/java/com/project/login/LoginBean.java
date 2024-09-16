@@ -20,7 +20,7 @@ public class LoginBean {
         this.password = password;
     }
 
-    // Method to validate user credentials
+   
     public boolean validate() {
         // Hardcoded username and password for simplicity
         return "admin".equals(username) && "password123".equals(password);
